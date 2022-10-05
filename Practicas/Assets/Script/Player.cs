@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] float vida = 200;
-    [SerializeField] float velocidad = 1;
+    [SerializeField] float vida = 200f;
+    [SerializeField] float velocidad = 1f;
     [SerializeField] Vector3 direccion;
     
 
@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     {
         Movimiento();
         CuraJugador();
-        //DañoJugador();
+        //Daï¿½oJugador();
 
     }
 
@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
         vida += 1 * Time.deltaTime;
     }
 
-    public void DañoJugador()
+    public void Daï¿½oJugador()
     {
         vida -= 1 * Time.deltaTime;
     }
