@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
 
     public void CuraJugador()
     {
-        vida += 1 * Time.deltaTime;
+        vida += 2 * Time.deltaTime;
     }
 
     public void Da�oJugador()
